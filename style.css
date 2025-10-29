@@ -6,7 +6,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #faf8fc; /* soft lavender white */
+  background-color: #faf8fc; 
   color: #333;
   line-height: 1.6;
 }
@@ -20,7 +20,7 @@ body {
 
 /*  Header & Navigation  */
 header {
-  background-color: #cdb4db; /* pastel lavender */
+  background-color: #cdb4db; 
   padding: 12px 0;
   position: sticky;
   top: 0;
@@ -47,14 +47,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #6d597a; /* darker lavender tone */
+  color: #6d597a; 
   text-decoration: underline;
 }
 
 /*  Hero Section  */
 #main-content {
   text-align: center;
-  background-color: #e9d8f4; /* light lavender */
+  background-color: #e9d8f4; 
   padding: 50px 20px;
   border-radius: 8px;
   margin-top: 20px;
@@ -164,3 +164,4 @@ footer {
 
   text-align: center;
 }
+
