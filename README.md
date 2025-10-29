@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-This is a **one-page portfolio website** created using **semantic HTML**.  
+This is a **one-page portfolio website** created using **semantic HTML** and **external CSS**
 It was developed as a part of a college assignment to practice structuring web pages using `<header>`, `<nav>`, `<section>`, and `<footer>`.
 
 ---
