@@ -15,7 +15,7 @@ This project has **two main stages**:
 - Organized sections: hero banner, about me with photo, project showcase, skills table, and a contact form.  
 - Accessibility is considered: images have alt text, forms have labels and required fields.  
 - No CSS yet — the focus is purely on **structure and clarity**.  
-- **Check it here:** [Assignment-1 ]
+- **Check it here:** [Assignment-1 ](https://github.com/hiya005/My-Profile)
 
 **Stage 2 — Styled with CSS:**  
 - Added a separate `style.css` file for all styling — no inline styles.  
@@ -25,7 +25,7 @@ This project has **two main stages**:
 - “Back to Top” button is fixed for easy navigation.  
 - Responsive design ensures the site looks good on mobile, tablet, and desktop.  
 - Fonts are chosen for readability, and color theme is consistent using CSS variables.  
-- **Check it here:** [Assignment-2 ]
+- **Check it here:** [Assignment-2 ](https://github.com/hiya005/My-Profile)
 ---
 
 ## 🧩 How It’s Organized
