@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <!-- Header + Navigation -->
+  <header> 
+    <nav>
+        <h1>MY PROFILE</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<hr>
+  <!-- Hero Section -->
+  <section id="main-content">
+    <h2>Welcome to My Portfolio</h2>
+    <p>I am a B.Tech student with a passion for coding, learning, and building creative solutions.</p>
+  </section>
+<hr>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="photo.jpeg" alt="Profile photo " width="150">
+    <p>
+      I enjoy exploring computer science concepts, practicing problem-solving, and designing web projects. 
+      In my free time, I love watching dramas and reading tech blogs.
+    </p>
+  </section>
+<!-- Projects Section -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <!-- Project 1 -->
+  <article>
+    <img src="password_checker.png" alt="Password Strength Checker" class="project-img">
+    <h3>Password Strength Checker</h3>
+    <p>A tool that checks password strength and suggests improvements for better security.</p>
+  </article>
+
+  <!-- Project 2 -->
+  <article>
+    <img src="calorie_counter.png" alt="Calorie Counter" class="project-img">
+    <h3>Calorie Counter</h3>
+    <p>A tool that helps you keep track of your daily calorie intake.</p>
+  </article>
+</section>
+
+  
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <table border="1" cellpadding="8">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Tools / Languages</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Programming</td>
+          <td>Python</td>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>HTML</td>
+        </tr>
+        <tr>
+          <td>Other</td>
+          <td>GitHub, VS Code</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+<hr>
+ <!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="#" method="post">
+    <table>
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="message">Message:</label></td>
+        <td><textarea id="message" name="message" placeholder="Write your message here..." required></textarea></td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <button type="submit">Send Message</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</section>
+
+<hr>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Portfolio </p>
+  </footer>
+  </div>
+<!-- Back to Top Button -->
+<a href="#" id="backToTop">Back to Top</a>
+</body>
+</html>

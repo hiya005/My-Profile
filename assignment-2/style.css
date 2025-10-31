@@ -1,0 +1,271 @@
+/*  Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f9f7ff; 
+  color: #2e2e2e;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #a088ff; 
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #e6dcff; 
+}
+
+/* Hero Section */
+#hero {
+  background-color: #e6dcff; 
+  padding: 70px 20px;
+  border-bottom: 3px solid #a088ff;
+}
+
+#hero h2 {
+  color: #5d3fd3; 
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+
+#hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+/* About Section */
+#about {
+  background: #ffffff;
+  padding: 50px 20px;
+  border-bottom: 2px solid #cdb4ff;
+}
+
+#about h2 {
+  color: #5d3fd3;
+  margin-bottom: 20px;
+}
+
+#about img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 4px solid #a088ff;
+}
+
+/* Projects Section */
+#projects {
+  background: #f4edff; 
+  padding: 50px 20px;
+  text-align: center; /* center align everything */
+}
+
+#projects h2 {
+  color: #5d3fd3;
+  margin-bottom: 25px;
+}
+
+#projects article {
+  background-color: #ffffff;
+  border: 1px solid #a088ff;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 400px; /* smaller card width */
+  text-align: center;
+}
+
+#projects .project-img {
+  width: 100%;      /* full width of card */
+  height: auto;     /* maintain aspect ratio */
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#projects h3 {
+  color: #5d3fd3;
+  margin-bottom: 10px;
+}
+
+#projects p {
+  color: #5d3fd3;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* Skills Section */
+#skills {
+  background: #ffffff;
+  padding: 50px 20px;
+}
+
+#skills h2 {
+  color: #5d3fd3;
+  margin-bottom: 20px;
+}
+
+#skills table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center; 
+}
+
+#skills th, #skills td {
+  border: 1px solid #a088ff;
+  padding: 12px;
+}
+
+#skills th {
+  background-color: #a088ff;
+  color: #fff;
+}
+/* Contact Section */
+#contact {
+  background-color: #e6dcff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #5d3fd3;
+  margin-bottom: 20px;
+}
+
+/* Center the form and give table style */
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border: 1px solid #cdb4ff;
+  border-radius: 10px;
+}
+
+/* Table layout with borders */
+#contact table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#contact td, #contact th {
+  border: 1px solid #cdb4ff;  /* classic border for rows & columns */
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 500;
+  color: #5d3fd3;
+}
+
+#contact th {
+  background-color: #a088ff;
+  color: white;
+}
+
+/* Inputs and textarea inside table */
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cdb4ff;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1em;
+}
+
+#contact textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* Submit Button */
+#contact button {
+  width: 100%;
+  padding: 12px;
+  background-color: #a088ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+#contact button:hover {
+  background-color: #5d3fd3;
+}
+
+#backToTop {
+  position: fixed;       
+  bottom: 20px;          
+  right: 20px;           
+  background-color: #a088ff; 
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 1000;
+  display: block;        
+}
+
+#backToTop:hover {
+  background-color: #5d3fd3;
+}
+
+
+/* Footer */
+footer {
+  background: #a088ff;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 30px;
+  font-size: 0.95em;
+}
+
+/* Horizontal Line Styling */
+hr {
+  border: 1px solid #cdb4ff;
+  margin: 30px 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
