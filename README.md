@@ -16,6 +16,7 @@ This project has **two main stages**:
 - Accessibility is considered: images have alt text, forms have labels and required fields.  
 - No CSS yet — the focus is purely on **structure and clarity**.  
 - **Check it here:** [Assignment-1 ](https://github.com/hiya005/My-Profile/tree/main/assignment-1)
+- 
 **Stage 2 — Styled with CSS:**  
 - Added a separate `style.css` file for all styling — no inline styles.  
 - Navigation menu and buttons have custom colors, hover effects, and padding.  
