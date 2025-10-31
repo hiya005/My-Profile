@@ -1,36 +1,105 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f8ff;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+</head>
+<body>
+    <h1>HIYA</h1>
+      
+  <!-- Accessibility: Skip link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-.container {
-    padding: 50px 20px;
-}
+  <!-- Header + Navigation -->
+  <header>
+    <h1>Hi, I’m Hiya.</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-h1 {
-    color: #4CAF50;
-    margin-bottom: 10px;
-}
+  <!-- Hero Section -->
+  <section id="main-content">
+    <h2>Welcome to My Portfolio</h2>
+    <p>I am a B.Tech student with a passion for coding, learning, and building creative solutions.</p>
+  </section>
 
-p {
-    font-size: 1.1rem;
-}
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="profile.jpeg" alt="Profile photo " width="150">
+    <p>
+      I enjoy exploring computer science concepts, practicing problem-solving, and designing web projects. 
+      In my free time, I love watching dramas and reading tech blogs.
+    </p>
+  </section>
 
-.info-box {
-    background-color: #ffffff;
-    border: 2px dashed #4CAF50;
-    padding: 20px;
-    max-width: 500px;
-    margin: 20px auto;
-    border-radius: 10px;
-}
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <article>
+          <h3>Password Strength Checker</h3>
+          <p>A tool that checks password strength and suggests improvements for better security.</p>
+        </article>
+      </li>
+    </ul>
+  </section>
 
-footer {
-    margin-top: 50px;
-    font-size: 0.9rem;
-    color: #777;
-}
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <table border="1" cellpadding="8">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Tools / Languages</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Programming</td>
+          <td>Python</td>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>HTML</td>
+        </tr>
+        <tr>
+          <td>Other</td>
+          <td>Git, VS Code</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here..." required></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Portfolio </p>
+  </footer>
+</body>
+</html>
